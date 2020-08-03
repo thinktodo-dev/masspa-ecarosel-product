@@ -5,13 +5,13 @@ var React__default = _interopDefault(React);
 require('react-responsive-carousel/lib/styles/carousel.min.css');
 var ReactImageZoom = _interopDefault(require('react-image-zoom'));
 
-var styles = {"test":"_3ybTi"};
-
 function _inheritsLoose(subClass, superClass) {
   subClass.prototype = Object.create(superClass.prototype);
   subClass.prototype.constructor = subClass;
   subClass.__proto__ = superClass;
 }
+
+var styles = {"test":"_3ybTi"};
 
 var styles$1 = {"modal":"_3PmEZ","imageModal":"_3CAmn","thumb":"_eLAeI","imageThumb":"_36W95","activeImageThumb":"_1MmHQ","iconPrevious":"_2tAuH","iconDisablePrevious":"_3TWK0","carousel":"_3jHa0","iconClose":"_2tZIK"};
 
@@ -241,10 +241,5 @@ var App = /*#__PURE__*/function (_React$Component) {
   return App;
 }(React__default.Component);
 
-var ExampleComponent = function ExampleComponent(_ref) {
-  var props = _ref.props;
-  return /*#__PURE__*/React__default.createElement(App, props);
-};
-
-exports.ExampleComponent = ExampleComponent;
+module.exports = App;
 //# sourceMappingURL=index.js.map
