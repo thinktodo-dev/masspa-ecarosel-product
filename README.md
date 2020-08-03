@@ -1,0 +1,1 @@
+# masspa-ecarosel-product
