@@ -1,6 +1,6 @@
 /* add css module styles here (optional) */
 
-._styles-module__test__3ybTi {
+._3ybTi {
   margin: 2em;
   padding: 0.5em;
   border: 2px solid #000;
@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-._carouselModal-module__modal__3PmEZ {
+._3PmEZ {
     /* height: 100%; */
       background-color: #000000d4;
       position: fixed;
@@ -22,41 +22,41 @@
       justify-content: space-between;
       padding: 40px;
   }
-  ._carouselModal-module__imageModal__3CAmn {
+  ._3CAmn {
       background-color: #fff;
       justify-content: center;
     width: 50%;
     height: 50%;
   }
-  ._carouselModal-module__thumb__eLAeI {
+  ._eLAeI {
     display: flex;
     flex-direction: row;
     height: 20vh;
   }
-  ._carouselModal-module__imageThumb__36W95 {
+  ._36W95 {
     height: 100px;
     width: 100px;
     border: 6px solid #00000000;
     cursor: pointer;
   }
-  ._carouselModal-module__activeImageThumb__1MmHQ {
+  ._1MmHQ {
     height: 100px;
     width: 100px;
     border: 6px solid #728ff9;}
-  ._carouselModal-module__iconPrevious__2tAuH {
+  ._2tAuH {
       height: 100px;
       cursor: pointer;
   }
-  ._carouselModal-module__iconDisablePrevious__3TWK0 {
+  ._3TWK0 {
     height: 100px;
   }
-  ._carouselModal-module__carousel__3jHa0 {
+  ._3jHa0 {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70vh;
   }
-  ._carouselModal-module__iconClose__2tZIK {
+  ._2tZIK {
     height: 4%;
     position: fixed;
     right: 20px;
