@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './styles.module.css'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import ReactImageZoom from 'react-image-zoom';
 import CarouselModal from "../component/carouselModal"
 class App extends React.Component {
