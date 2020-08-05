@@ -37,15 +37,13 @@ export default class carouselModal extends Component {
     render() {
         let {imageArr} = this.props
         let {active} = this.state
-        console.log(imageArr)
-        console.log(active)
         return (
             <div className = {styles.modal}>
                 <div className = {styles.carousel}>
-                <img className = {styles.iconClose} onClick = {() => this.closeModal()} src = "/close.svg"></img>
-                <img className = {active > 0 ? styles.iconPrevious : styles.iconDisablePrevious} onClick = {() => this.previousImg()} src = "/previous.svg"></img>
+                <img className = {styles.iconClose} onClick = {() => this.closeModal()} src = "../images/close.svg"></img>
+                <img className = {active > 0 ? styles.iconPrevious : styles.iconDisablePrevious} onClick = {() => this.previousImg()} src = "../images/previous.svg"></img>
                 <img className = {styles.imageModal} src = {imageArr[active]}></img>
-                <img className = {active < imageArr.length -1 ? styles.iconPrevious : styles.iconDisablePrevious} src = "/next.svg" onClick = {() => this.nextImg()}></img>
+                <img className = {active < imageArr.length -1 ? styles.iconPrevious : styles.iconDisablePrevious} src = "../images/next.svg" onClick = {() => this.nextImg()}></img>
                 </div> 
                 <div className = {styles.thumb}>
                   {imageArr && imageArr.map((image,index) => {

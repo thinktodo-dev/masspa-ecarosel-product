@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './styles.module.css'
 import ReactImageZoom from 'react-image-zoom';
-import CarouselModal from "../component/carouselModal"
+import CarouselModal from "./component/carouselModal"
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -29,7 +29,7 @@ class App extends React.Component {
   render() {
     let {imageUrl = [], imagesReview= [], titleBottom} = this.props
     let {selectedImage, showModal} = this.state
-    return  (    
+    return  ( 
     <div className={styles.productImage}> 
     {showModal && <CarouselModal imageArr = {imageUrl} closeModal = {this.closeModal}/>}
       <div className={styles.groupImages}>
@@ -48,7 +48,7 @@ class App extends React.Component {
               }
         </div>
         <div className={styles.imageZoom}>
-          {selectedImage && <ReactImageZoom width={430} height={430} zoomWidth={500} img={selectedImage} /> }          <p className="legend"><img className = {styles.zoomIcon} src = "./zoom-in.svg"></img>Re chuot len hiinh de phong to</p>
+          {selectedImage && <ReactImageZoom width={430} height={430} zoomWidth={500} img={selectedImage} /> }          <p className="legend"><img className = {styles.zoomIcon} src = "./images/zoom-in.svg"></img>Re chuot len hiinh de phong to</p>
         </div> 
       <div>
     </div> 
@@ -72,6 +72,7 @@ class App extends React.Component {
     )
 }
 }
+
 
 export default App
 

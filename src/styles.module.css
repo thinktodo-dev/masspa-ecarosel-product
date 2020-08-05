@@ -1,9 +1,153 @@
 /* add css module styles here (optional) */
+/* add css module styles here (optional) */
+ .view {
+   height: 100px;
+   background-color: #0000000d;
+   border: 2px solid  #0000000d;
+ }
+.container {
+  /* width: 100%; */
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.seeMoreImage ,.seeMoreImage>div>img{
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+.zoomIcon {
+  width: 15px;
+    margin-right: 6px;
+    margin-bottom: -3px;
+}
+.backgroundSeeMore  {
+  position: absolute;
+  width: 100%;
+  top: 0;
+    height: 100%;
+    background-color: #00000094;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+.image {
+  width: 100%
+}
+.productImage {
+  /* width: 100%; */
+  padding: 10px
+} 
+.productContent {
+  padding: 0 10px
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+}
+.header {
+  display: flex;
+  width: 100%;
+}
+.price {
+  color: #fd0a0a;
+  font-size: 26px;
+  font-weight: 500;
+}
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+}
+.quanlityInput {
+  margin-right: 20px;
+}
+.groupImages {
+  display: flex;
+  flex-direction: row;
+    justify-content: space-between;
+}
+.images {
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+.imagesReview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+ 
+.thumnail {
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.selectedThumnail {
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(43 161 255);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.imageZoom {
+  margin-left: 24px;
   text-align: center;
+}
+.title {
+  color: rgb(51, 51, 51);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0px;
+    margin-top: 0;
+}
+.featureItem {
+  margin-bottom: 6px;
+  color: rgb(36, 36, 36);
+  font-size: 13px;
+  line-height: 16px;
+}
+.quantity {
+  width: 40px;
+  background-color: #0000000d;
+  height: 40px;
+  border-color: #0000000f;
+}
+.inputQuantity {
+  text-align: center;
+  height: 34px;
+  width: 40px;
+  background-color: #0000000d;
+  border-color: #0000000f;
+ border-left: none;
+ border-right: none;
+}
+.star {
+  width: 24px;
+}
+.buttonOrder {
+  color: rgb(255, 255, 255);
+    background-color: rgb(255, 57, 69);
+}
+.brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sku {
+  margin-left: 20px;
+    color: rgb(155, 155, 155);
 }
