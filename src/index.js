@@ -10,7 +10,7 @@ class App extends React.Component {
      showModal: false
     };
   }
-  componentDidMount = async () => {
+  componentDidMount() {
     let {imageUrl} = this.props
      if(imageUrl && imageUrl.length > 0) {
        this.setState({selectedImage: imageUrl[0]})
