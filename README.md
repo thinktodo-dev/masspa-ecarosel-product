@@ -24,6 +24,15 @@ class Example extends Component {
   }
 }
 ```
+## Properties
+
+Prop | description 
+--- | --- 
+*description* | `HTML` 
+imageUrl | array of image at left
+imagesReview | array of image at bottom  
+titleBottom | bottom title     
+
 
 ## License
 
