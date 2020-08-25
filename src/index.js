@@ -77,7 +77,7 @@ class App extends React.Component {
             )}{' '}
             <p className='legend'>
               <img className={styles.zoomIcon} src={IconZoom}></img>
-              Re chuot len hiinh de phong to
+              Rê chuột lên hình để phóng to
             </p>
           </div>
           <div></div>
