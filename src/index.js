@@ -37,7 +37,7 @@ class App extends React.Component {
         )}
         <div className={styles.groupImages}>
           <div className={styles.images}>
-            {imageUrl &&
+            {Array.isArray(imageUrl) &&
               imageUrl.map((image, index) => {
                 if (index <= 3)
                   return (
@@ -84,7 +84,7 @@ class App extends React.Component {
         </div>
         {titleBottom && <h4>{titleBottom}</h4>}
         <div className={styles.imagesReview}>
-          {imagesReview &&
+          {Array.isArray(imagesReview) &&
             imagesReview.map((image, index) => {
               if (index <= 5)
                 return (
