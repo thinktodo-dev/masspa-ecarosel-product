@@ -27,11 +27,11 @@ class App extends React.Component {
     this.setState({ showModal: true })
   }
   render() {
-    let { imageUrl = [], imagesReview = [], titleBottom } = this.props
+    let { imageUrl = [], imagesReview = [], titleBottom, fontFamily = "unset" } = this.props
     let { selectedImage, showModal } = this.state
     // console.log(imageUrl)
     return (
-      <div className={styles.productImage}>
+      <div className={styles.productImage} style = {{fontFamily: fontFamily}}>
         {showModal && (
           <CarouselModal imageArr={imageUrl} closeModal={this.closeModal} />
         )}

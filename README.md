@@ -32,7 +32,7 @@ Prop | description
 imageUrl | array of image at left
 imagesReview | array of image at bottom  
 titleBottom | bottom title     
-
+fontFamily | font-family
 
 ## License
 
